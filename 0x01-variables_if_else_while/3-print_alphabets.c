@@ -12,7 +12,6 @@ int main(void)
 	/* prints alphabet in lowercase */
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 		putchar(alpha);
-	putchar('\n');
 
 	/* prints alphabet in uppercase */
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
