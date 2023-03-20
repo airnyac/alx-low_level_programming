@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char LowNum;
+	int LowNum;
 
 	for (LowNum = '0'; LowNum <= '9'; ++LowNum)
 		putchar(LowNum);
