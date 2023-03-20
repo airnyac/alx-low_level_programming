@@ -15,7 +15,7 @@ int main(void)
 		putchar(i + '0');
 
 	/*Adds a comma and a space to each number*/
-	if (i < 9)
+	if (i <= 8)
 		putchar(',');
 		putchar(' ');
 	}
