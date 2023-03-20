@@ -16,8 +16,10 @@ int main(void)
 
 	/*Adds a comma and a space to each number*/
 	if (i <= 8)
+	{
 		putchar(',');
 		putchar(' ');
+	}
 	}
 putchar('\n');
 return (0);
