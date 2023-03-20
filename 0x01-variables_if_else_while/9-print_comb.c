@@ -10,6 +10,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i <= 9; i++)
+	{
 		/*prints the value of i as character*/
 		putchar(i + '0');
 
@@ -17,6 +18,7 @@ int main(void)
 	if (i != 9)
 	putchar(',');
 	putchar(' ');
+	}
 
 putchar('\n');
 return (0);
