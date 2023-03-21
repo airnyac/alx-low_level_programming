@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- *
+ * Prints '_putchar' to standard output
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -15,6 +15,6 @@ int main(void)
 	{
 		putchar(str[i]);
 	}
-putchar('\n');
+putchar('\n'); /*prints a new line*/
 return (0);
 }
