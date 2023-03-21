@@ -1,19 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - Entry point
- * print_alphabet: prints the lowercase letters of the alphabet
- * Return: Always 0 (Success)
+ * print_alphabet - Prints alphabet in lowercase letter
+ * followed by a new line
+ * Return: Always
  */
-
-void print_alphabet(void)
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
