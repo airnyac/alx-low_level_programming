@@ -25,10 +25,10 @@ void jack_bauer(void)
 					_putchar(58);
 					_putchar(k + '0');
 					_putchar(l + '0');
-					_putchar(10);		
+					_putchar(10);
 				}
 			}
-			if (i == 2 && j ==3)
+			if (i == 2 && j == 3)
 				return;
 		}
 	}
