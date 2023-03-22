@@ -3,7 +3,7 @@
 /**
  * _abs - Computes absolute value of an integer
  * @n: generates absolute value of n
- * Return: value of n
+ * Return: void
  */
 int _abs(int n)
 {
@@ -12,10 +12,18 @@ int _abs(int n)
 		n = -n;
 	}
 
-	if (n / 10 != 0)
+	if (n == 0)
 	{
-		n = _abs(n / 10) * 10 + (n % 10);
+		_putchar('0');
 	}
 
-	return (n);
+	while (n != 0)
+	{
+		int digit = n % 10;
+		char i = digit + '0';
+
+		_putchar(i);
+		n /= 10;
+	}
+	return n;
 }
