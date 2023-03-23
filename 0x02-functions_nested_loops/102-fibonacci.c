@@ -22,6 +22,7 @@ int main(void)
 		else
 		{
 			z += y;
+			y = z - y;
 			printf("%ld", y);
 		}
 		++x;
