@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * natural_sum - Prints the sum of multiples 3 or 5 below 1024
+ * main - Prints the sum of multiples 3 or 5 below 1024
  *
  * Return: Always 0 (Success)
  */
-int natural_sum(void)
+int main(void)
 {
 	int i, j = 0;
 
