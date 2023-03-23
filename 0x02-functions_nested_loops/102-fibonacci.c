@@ -15,7 +15,7 @@ int main(void)
 		{
 			printf("%ld", y);
 		}
-		else if (x == 0)
+		else if (x == 1)
 		{
 			printf("%ld", z);
 		}
