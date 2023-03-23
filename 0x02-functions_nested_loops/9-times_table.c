@@ -21,12 +21,12 @@ void times_table(void)
 				m = (k - l) / 10;
 				_putchar(44);
 				_putchar(32);
-				_putchar(l + '0');
 				_putchar(m + '0');
+				_putchar(l + '0');
 			}
 			else
 			{
-			       	if (j != 0)
+				if (j != 0)
 				{
 				_putchar(44);
 				_putchar(32);
